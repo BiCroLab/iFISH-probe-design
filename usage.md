@@ -126,7 +126,7 @@ The tool also produces plots to easily understand how the probe is structured.
 [O_i]: http://chart.apis.google.com/chart?cht=tx&chl=O_i
 [N_G]: http://chart.apis.google.com/chart?cht=tx&chl=N_G
 [fnot]: http://chart.apis.google.com/chart?cht=tx&chl=f_{1,i}\notin{I_{f_1}}
-[minIG]: http://chart.apis.google.com/chart?cht=tx&chl=min_{I_G}\eq{k}{N_O}+{min_d}({N_O}-1)
+[minIG]: http://mathurl.com/y9kfy2az.png
 [Ciform]: http://chart.apis.google.com/chart?cht=tx&chl=C_i=O_i,O_{i+1},...,O_{i+N_O-1}
 [best1]: http://chart.apis.google.com/chart?cht=tx&chl=best(f_x)=max(f_x)if{f_x}\in{centrality}
 [best2]: http://chart.apis.google.com/chart?cht=tx&chl=best(f_x)=min(f_x)if{f_x}\in{size,spread}
