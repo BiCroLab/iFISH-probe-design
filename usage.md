@@ -52,29 +52,19 @@ Probe characteristics
 
 The script focuses on three possible probe characteristics:
 
-* **Size** ([I_i]). The size of the genomic regione covered by the probe. It is calculated as the difference between the end position of the last [k]-mer ([E]) and the start position of the first [k]-mer ([S]).
+* **Size** (![I_i]). The size of the genomic regione covered by the probe. It is calculated as the difference between the end position of the last ![k]-mer (![E]) and the start position of the first ![k]-mer (![S]).
 
-```
-I_i = E_i - S_i
-```
+![Iiform]
 
-* **Centrality** ([C_i]). It measures how centrally the probe is located in the specified genomic region of interest (GRoI). Specifically, it takes values between 0 and 1, where 1 means perfectly central and 0 means perfectly borderline. Mathematically speaking, if [S_g] and [E_g] are respectively the start and end position of the GRoi, then
+* **Centrality** (![C_i]). It measures how centrally the probe is located in the specified Genomic Region of Interest (GRoI). Specifically, it takes values between 0 and 1, where 1 means perfectly central and 0 means perfectly borderline. Mathematically speaking, if [!S_g] and [!E_g] are respectively the start and end position of the GRoi, then
 
-```
-M_i = S_i + (E_i - S_i)/2
-M_g = S_g + (E_g - S_g)/2
-C_i = |d(S_g, M_g) - d(M_i, M_g)| / d(S_g, M_g)
-```
+![MMCform]
 
-With :math:`M_g` and :math:`M_i` being the middle points of the GRoI and of the [i]-th probe, respectively, and `d(A, B)` being the distance between the points `A` and `B`.
+With ![M_g] and ![M_i] being the middle points of the GRoI and of the ![i]-th probe, respectively, and ![dab] being the distance between the points `A` and `B`.
 
-* **Spread** (:math:`P_i`). It measures how homogeneously the oligomers are spread over the probe. It is basically the inverse of the consecutive-mers distance's standard deviation. Thus, the larger :math:`P_i`, the more homogeneously the oligomers are spread.
+* **Spread** ([P_i]). It measures how homogeneously the oligomers are spread over the probe. It is basically the inverse of the consecutive-mers distance's standard deviation. Thus, the larger [P_i], the more homogeneously the oligomers are spread.
 
-```
-U_i = sum(from j=1, to N_O-1)((S_{j+1} - E_{j}) / (N_O - 1))
-
-1/P_i = sqrt( sum(from j=1, to N_0-1)( (U - |S_(j+1) - E_j|)^2 / (N_0-1) ) )
-```
+![UPform]
 
 It is important to note how size and spread need to be minimized, while centrality should be maximized.
 
@@ -116,12 +106,16 @@ The tool also produces plots to easily understand how the probe is structured.
 [C]: http://chart.apis.google.com/chart?cht=tx&chl=C
 [I_i]: http://chart.apis.google.com/chart?cht=tx&chl=I_i
 [C_i]: http://chart.apis.google.com/chart?cht=tx&chl=C_i
+[M_g]: http://chart.apis.google.com/chart?cht=tx&chl=M_g
+[M_i]: http://chart.apis.google.com/chart?cht=tx&chl=M_i
+[P_i]: http://chart.apis.google.com/chart?cht=tx&chl=P_i
 [S_g]: http://chart.apis.google.com/chart?cht=tx&chl=S_g
 [E_g]: http://chart.apis.google.com/chart?cht=tx&chl=E_g
 [N_O]: http://chart.apis.google.com/chart?cht=tx&chl=N_O
 [f_1]: http://chart.apis.google.com/chart?cht=tx&chl=f_1
 [f_2]: http://chart.apis.google.com/chart?cht=tx&chl=f_2
 [f_3]: http://chart.apis.google.com/chart?cht=tx&chl=f_3
+[dab]: http://chart.apis.google.com/chart?cht=tx&chl=d(A,B)
 [min_d]: http://chart.apis.google.com/chart?cht=tx&chl=min_d
 [O_i]: http://chart.apis.google.com/chart?cht=tx&chl=O_i
 [N_G]: http://chart.apis.google.com/chart?cht=tx&chl=N_G
@@ -132,3 +126,6 @@ The tool also produces plots to easily understand how the probe is structured.
 [best2]: http://mathurl.com/y8sh9pos.png
 [Iform]: http://mathurl.com/yaebla63.png
 [Nform]: http://mathurl.com/y9aorugn.png
+[Iiform]: http://chart.apis.google.com/chart?cht=tx&chl=I_i=E_i-S_i
+[MMCform]: http://mathurl.com/yaq6xfzw.png
+[UPform]: http://mathurl.com/y74watg9.png
