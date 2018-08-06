@@ -10,5 +10,6 @@ While the current implementation does not allow for overlapping oligonucleotides
 
 * [Install](https://ggirelli.github.io/fish-prode/install)
 * [Usage](https://ggirelli.github.io/fish-prode/usage)
+    - [Database](https://ggirelli.github.io/fish-prode/database)
 * [Contributing Guidelines](https://ggirelli.github.io/fish-prode/contributing)
 * [Code of Conduct](https://ggirelli.github.io/fish-prode/code_of_conduct)
