@@ -2,5 +2,5 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga fugiat minima sed
 
 ## Useful links
 
-* [Contributing Guidelines]()
-* [Code of Conduct]()
+* [Contributing Guidelines](https://ggirelli.github.io/fish-prode/contributing)
+* [Code of Conduct](https://ggirelli.github.io/fish-prode/code_of_conduct)
