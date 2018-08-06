@@ -62,7 +62,7 @@ The script focuses on three possible probe characteristics:
 
 With ![M_g] and ![M_i] being the middle points of the GRoI and of the ![i]-th probe, respectively, and ![dab] being the distance between the points `A` and `B`.
 
-* **Spread** ([P_i]). It measures how homogeneously the oligomers are spread over the probe. It is basically the inverse of the consecutive-mers distance's standard deviation. Thus, the larger [P_i], the more homogeneously the oligomers are spread.
+* **Spread** (![P_i]). It measures how homogeneously the oligomers are spread over the probe. It is basically the inverse of the consecutive-mers distance's standard deviation. Thus, the larger ![P_i], the more homogeneously the oligomers are spread.
 
 ![UPform]
 
