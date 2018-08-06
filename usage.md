@@ -81,7 +81,7 @@ If the query passes the first test, the tool proceeds with the generation of all
 
 ![Ciform]
 
-Where ![O_i] is the ![i]-th ![k]-mers in the GRoI and ![C_i] is the ![i]-th probe candidate. If the GRoI has ![N_G] ![k]-mers, then [Nform] probe candidates are generated.
+Where ![O_i] is the ![i]-th ![k]-mers in the GRoI and ![C_i] is the ![i]-th probe candidate. If the GRoI has ![N_G] ![k]-mers, then ![Nform] probe candidates are generated.
 
 The algorithms requires to rank the probe characteristics (size, centrality, and spread) in so-called 1st, 2nd and 3rd *features* (![f_1], ![f_2], and ![f_3]).
 
