@@ -1,4 +1,4 @@
-**FISH Pro**be **De**sign (**FISH-ProDe**, pronounced "*pro‧de*", "brave" or "valiant" in italian) is a suite of tools for selection of complementary oligonucleotides to build FISH probes. It also includes a web interface to simplify the selection and remove any need for programming skills.
+**FISH Pro**be **De**sign (**FISH-ProDe**, pronounced *pro‧de*, "brave" or "valiant" in italian) is a suite of tools for selection of complementary oligonucleotides to build FISH probes. It also includes a web interface to simplify the selection and remove any need for programming skills.
 
 The suite allows to select sets of oligomers as FISH probes from databases of **non-overlapping** complementary oligonucleotides. Every database is expected to be a folder with one txt file per chromosome, containing the starting location of each oligo. The length of the oligos is encoded in the folder name.
 
