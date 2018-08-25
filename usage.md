@@ -108,7 +108,7 @@ Then, the 1st feature is calculated for every probe candidate ![C] and the best 
 
 ![Iform]
 
-Every candidate probe ![C_i] with an [fnot] is discarded.
+Every candidate probe ![C_i] with an ![fnot] is discarded.
 
 Then, ![f_2] and ![f_3] are calculated for every remaining probe candidate. The candidates are ranked based on ![f_2] \(with the `best` on top) and returned as the output.
 
