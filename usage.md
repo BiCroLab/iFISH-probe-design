@@ -67,8 +67,25 @@ With ![M_g] and ![M_i] being the middle points of the GRoI and of the ![i]-th pr
 
 It is important to note how size and spread need to be minimized, while centrality should be maximized.
 
-Algorithm
----------
+Probe set characteristics
+-------------------------
+
+When run with `--n_probes` higher than 1 (default), the script calculates the characteristics of the probe sets, specifically, the *spread*-like measure calculated for every probe set aims at identifying the probe set with the most homogeneous probes in term of distribution and size. Thus, given ![S_i] and ![E_i] as the start and end of ![i]-th probe, we can define mean (![U]) and standard deviation (![T]) of the size and distribution of the probes:
+
+![U_S]
+
+![T_S]
+
+![U_D]
+
+![T_D]
+
+Then, the *spread*-like measure (![P]) will be the inverse of the averaged standard deviations:
+
+![revP]
+
+Single Probe Algorithm
+----------------------
 
 The algorithm behind the single probe design considers a probe candidate as a set of ![N_O] consecutive oligomers (or ![k]-mers), in the genomic region of interest. Two ![k]-mers are considered **consecutive** when there are no other ![k]-mers between them.
 
@@ -96,6 +113,22 @@ Every candidate probe ![C_i] with an [fnot] is discarded.
 Then, ![f_2] and ![f_3] are calculated for every remaining probe candidate. The candidates are ranked based on ![f_2] \(with the `best` on top) and returned as the output.
 
 The tool also produces plots to easily understand how the probe is structured.
+
+Multi Probe Algorithm
+=====================
+
+When asked to design ![N] probes, the algorithm works by:
+
+1. Split the region of interest in ![Nplus1] windows.
+2. Discard the last window.
+3. Run the single-probe design algorithm in every window and identify the best probe based on the provided settings.
+4. Shift the windows of ![shift] and repeat step 3. In other words, ![W_S] should be treated as a fraction of the window size: ![WS_in]
+5. Repeat step 3-4 until the end of the region of interest is found.
+6. Calculate a *spread*-like measure (described below) for every evaluated window set, i.e., for every candidate probe set.
+7. Rank the candidate probe set based on the *spread* measure.
+
+
+
 
 [k]: http://chart.apis.google.com/chart?cht=tx&chl=k
 [i]: http://chart.apis.google.com/chart?cht=tx&chl=i
@@ -128,3 +161,20 @@ The tool also produces plots to easily understand how the probe is structured.
 [Iiform]: http://chart.apis.google.com/chart?cht=tx&chl=I_i=E_i-S_i
 [MMCform]: http://mathurl.com/yaq6xfzw.png
 [UPform]: http://mathurl.com/y74watg9.png
+
+[N]: http://chart.apis.google.com/chart?cht=tx&chl=N
+[P]: http://chart.apis.google.com/chart?cht=tx&chl=P
+[T]: http://chart.apis.google.com/chart?cht=tx&chl=T
+[U]: http://chart.apis.google.com/chart?cht=tx&chl=U
+[E_i]: http://chart.apis.google.com/chart?cht=tx&chl=E_i
+[S_i]: http://chart.apis.google.com/chart?cht=tx&chl=S_i
+[U_S]: http://mathurl.com/yb9tlvfn.png
+[T_S]: http://mathurl.com/y7qkx93a.png
+[U_D]: http://mathurl.com/y7oadht7.png
+[T_D]: http://mathurl.com/y947tun5.png
+[revP]: http://mathurl.com/y8qm34ln.png
+
+[Nplus1]: http://mathurl.com/y7cwkfg5.png
+[shift]: http://mathurl.com/ybje72uo.png
+[W_S]: http://chart.apis.google.com/chart?cht=tx&chl=W_S
+[WS_in]: http://mathurl.com/y8p28ojl.png
