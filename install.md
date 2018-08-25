@@ -28,7 +28,7 @@ To **update**, run the following from within the repository folder:
 git pull
 sudo -H pip3 install -e .
 ```
-<small>(the second line is needed only to update the package version recognized by pip)</small>
+(the second line is needed only to update the package version recognized by pip)
 
 To **uninstall**, run the following from within the repository folder:
 
