@@ -4,23 +4,36 @@ title: "FISH-ProDe Installation"
 
 # How to install FISH-ProDe
 
-* Clone the git repository locally.
+### From PyPi
+
+Install from pypi with `sudo -H pip3 install fish-prode`, and that's it! That's as easy as it gets.
+
+To **update** run `sudo -H pip3 install -U fish-prode`.
+
+To **remove** run `sudo -H pip3 uninstall fish-prode`, and confirm when prompted.
+
+### From GitHub
+
+You can also **install** from github (any point in history, although we suggest to stick with realease tags) as follows:
 
 ```bash
-git clone https://github.com/ggirelli/ood-fish/
-cd ood-fish
+git clone https://github.com/ggirelli/fish-prode/
+cd fish-prode
+sudo -H pip3 install -e .
 ```
 
-* Install Python2 dependencies (requires pip2, installed with `sudo apt install python-pip` or similar).
+To **update**, run the following from within the repository folder:
 
 ```bash
-sudo -H pip2 install sqlite3 matplotlib numpy pandas scipy shutil urllib2 xml zipfile
+git pull
+sudo -H pip3 install -e .
 ```
+<small>(the second line is needed only to update the package version recognized by pip)</small>
 
-* Install Python3 dependencies (requires pip3 and python3, installed with `sudo apt install python3 python3-pip` or similar).
+To **uninstall**, run the following from within the repository folder:
 
 ```bash
-sudo -H pip3 install bottle numpy pandas paste
+sudo -H python3 setup.py develop --uninstall
 ```
 
-* Download/Extract databases. More details on the [database page](https://ggirelli.github.io/fish-prode/database).
+And then manually remove the scripts files. A list of the installed script files is available in the `setup.py` file. Check their location with `whereis`.

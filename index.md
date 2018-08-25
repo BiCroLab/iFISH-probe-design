@@ -2,7 +2,7 @@
 
 The suite allows to select sets of oligomers as FISH probes from databases of **non-overlapping** complementary oligonucleotides. Every database is expected to be a folder with one txt file per chromosome, containing the starting location of each oligo. The length of the oligos is encoded in the folder name.
 
-The `extract_database.py` script can be used to convert a `sqlite3` database into single-chromosome txt files in the aforementioned format. The `query_database.py` script allows to extract probes from a database based on a number of parameters that can be easily tweaked by the user. For simplicity, a web-interface is available. More details in the [usage page]().
+The `fprode_dbextract` command can be used to convert a `sqlite3` database into single-chromosome txt files in the aforementioned format. `fprode_dbquery` allows instead to extract probes from a database based on a number of parameters that can be easily tweaked by the user. For simplicity, a web-interface is available with `fprode_serve`. More details in the [usage page](https://ggirelli.github.io/fish-prode/usage).
 
 While the current implementation does not allow for overlapping oligonucleotides in the database, we are planning to take that into account.
 

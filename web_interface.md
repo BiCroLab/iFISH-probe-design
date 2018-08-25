@@ -4,9 +4,9 @@ title: "FISH-ProDe Web Interface"
 
 # How to use the FISH-ProDe Web interface
 
-Start the web interface using the `web.py` script. Customized URL and port can be provided with the `--url` and `--port` flags, respectively.
+Start the web interface using the `fprode_serve` command. Custom URL and port can be provided with the `--url` and `--port` flags, respectively. By default the **static** folder (which will contain databases and query results) is located in the current folder. You can set a custom folder using the `--static` option.
 
-Once the script is running, visit the specified URL (defaults to `0.0.0.0:8080`) and select the **probe design** option.
+Once the script is running, visit the specified URL (defaults to `0.0.0.0:8080`). If you are not re-directed automatically, select the **probe design** option.
 
 The available options in the main panel are:
 

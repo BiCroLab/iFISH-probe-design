@@ -10,14 +10,14 @@ For more details, check the [web interface page](https://ggirelli.github.io/fish
 
 ## Command line
 
-`FISH-ProDe` can also be run from command line by running the `design_probes.py` script, which allows to **identify the best FISH probe** in a specific genomic region. Specifically, it provides a number of candidates from which the user can choose its favorite. If we run `design_probes.py -h` we get a useful recap of all the options:
+`FISH-ProDe` can also be run from command line by running the `fprode_dbquery` script, which allows to **identify the best FISH probe** in a specific genomic region. Specifically, it provides a number of candidates from which the user can choose its favorite. If we run `fprode_dbquery -h` we get a useful recap of all the options:
 
 ```
-usage: design_probes.py [-h] [--description descr] [--feat_order fo]
-                         [--f1_thr ft] [--min_d md] [--n_oligo no]
-                         [--n_probes np] [--max_probes mp] [--win_shift ws]
-                         [--outdir od] [-f [F]]
-                         id name chr start end db
+usage: fprode_dbquery [-h] [--description descr] [--feat_order fo]
+                      [--f1_thr ft] [--min_d md] [--n_oligo no]
+                      [--n_probes np] [--max_probes mp] [--win_shift ws]
+                      [-o od] [-f [F]]
+                      id name chr start end db
 
 Query database for a FISH probe.
 
@@ -42,9 +42,8 @@ optional arguments:
   --max_probes mp      Maximum number of output probe candidates. Set to "-1"
                        to retrieve all candidates.
   --win_shift ws       Window size fraction for shifting the windows.
-  --outdir od          Query output directory.
+  -o od, --outdir od   Query output directory.
   -f [F]               Force overwriting of the query if already run.
-
 ```
 
 Probe characteristics
