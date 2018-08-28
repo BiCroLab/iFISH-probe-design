@@ -55,7 +55,7 @@ The script focuses on three possible probe characteristics:
 
 ![Iiform]
 
-* **Centrality** (![C_i]). It measures how centrally the probe is located in the specified Genomic Region of Interest (GRoI). Specifically, it takes values between 0 and 1, where 1 means perfectly central and 0 means perfectly borderline. Mathematically speaking, if [!S_g] and [!E_g] are respectively the start and end position of the GRoi, then
+* **Centrality** (![C_i]). It measures how centrally the probe is located in the specified Genomic Region of Interest (GRoI). Specifically, it takes values between 0 and 1, where 1 means perfectly central and 0 means perfectly borderline. Mathematically speaking, if ![S_g] and ![E_g] are respectively the start and end position of the GRoi, then
 
 ![MMCform]
 
