@@ -1,8 +1,8 @@
 ---
-title: "FISH-ProDe Usage"
+title: "iFISH-probe-design Usage"
 ---
 
-# How to run FISH-ProDe
+# How to run iFISH-probe-design
 
 ## Web interface
 
@@ -10,7 +10,7 @@ For more details, check the [web interface page](https://ggirelli.github.io/fish
 
 ## Command line
 
-`FISH-ProDe` can also be run from command line by running the `fprode_dbquery` script, which allows to **identify the best FISH probe** in a specific genomic region. Specifically, it provides a number of candidates from which the user can choose its favorite. If we run `fprode_dbquery -h` we get a useful recap of all the options:
+`iFISH-probe-design` can also be run from command line by running the `fprode_dbquery` script, which allows to **identify the best FISH probe** in a specific genomic region. Specifically, it provides a number of candidates from which the user can choose its favorite. If we run `fprode_dbquery -h` we get a useful recap of all the options:
 
 ```
 usage: fprode_dbquery [-h] [--description descr] [--feat_order fo]

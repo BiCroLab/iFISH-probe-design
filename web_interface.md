@@ -1,8 +1,8 @@
 ---
-title: "FISH-ProDe Web Interface"
+title: "iFISH-probe-design Web Interface"
 ---
 
-# How to use the FISH-ProDe Web interface
+# How to use the iFISH-probe-design Web interface
 
 Start the web interface using the `fprode_serve` command. Custom URL and port can be provided with the `--url` and `--port` flags, respectively. By default the **static** folder (which will contain databases and query results) is located in the current folder. You can set a custom folder using the `--static` option.
 

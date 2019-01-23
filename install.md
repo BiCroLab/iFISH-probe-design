@@ -1,24 +1,24 @@
 ---
-title: "FISH-ProDe Installation"
+title: "iFISH-probe-design Installation"
 ---
 
-# How to install FISH-ProDe
+# How to install iFISH-probe-design
 
 ### From PyPi
 
-Install from pypi with `sudo -H pip3 install fish-prode`, and that's it! That's as easy as it gets.
+Install from pypi with `sudo -H pip3 install ifpd`, and that's it! That's as easy as it gets.
 
-To **update** run `sudo -H pip3 install -U fish-prode`.
+To **update** run `sudo -H pip3 install -U ifpd`.
 
-To **remove** run `sudo -H pip3 uninstall fish-prode`, and confirm when prompted.
+To **remove** run `sudo -H pip3 uninstall ifpd`, and confirm when prompted.
 
 ### From GitHub
 
 You can also **install** from github (any point in history, although we suggest to stick with realease tags) as follows:
 
 ```bash
-git clone https://github.com/ggirelli/fish-prode/
-cd fish-prode
+git clone https://github.com/ggirelli/iFISH-Probe-Design/
+cd iFISH-Probe-Design
 sudo -H pip3 install -e .
 ```
 

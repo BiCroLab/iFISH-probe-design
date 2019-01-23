@@ -1,5 +1,5 @@
 ---
-title: FISH-ProDe Code of Conduct
+title: iFISH-probe-design Code of Conduct
 ---
 
 # Code of Conduct
