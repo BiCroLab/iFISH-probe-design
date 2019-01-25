@@ -8,9 +8,11 @@ While the current implementation does not allow for overlapping oligonucleotides
 
 ## Useful links
 
-* [Install](https://ggirelli.github.io/iFISH-probe-design/install)
+* [Installation](https://ggirelli.github.io/iFISH-probe-design/install)
+* [Introduction](https://ggirelli.github.io/iFISH-probe-design/intro)
 * [Usage](https://ggirelli.github.io/iFISH-probe-design/usage)
     - [Database](https://ggirelli.github.io/iFISH-probe-design/database)
+    - [Scripts](https://ggirelli.github.io/iFISH-probe-design/scripts)
     - [Web Interface](https://ggirelli.github.io/iFISH-probe-design/web_interface)
 * [Contributing Guidelines](https://ggirelli.github.io/iFISH-probe-design/contributing)
 * [Code of Conduct](https://ggirelli.github.io/iFISH-probe-design/code_of_conduct)
