@@ -1,12 +1,6 @@
-**iFISH Probe Design** is a suite of tools for selection of complementary oligonucleotides to build FISH probes. It also includes a web interface to simplify the selection and remove any need for programming skills.
+**iFISH Probe Design** (`ifpd`) is a Python3 package containing tools for selection of complementary oligonucleotides to build iFISH probes. It also includes a web interface, which simplifies the procedure by removing any requirement for programming skills. The tools allow to select sets of oligomers as iFISH probes, starting from databases of oligonucleotides complementary to specific genomic loci.
 
-The suite allows to select sets of oligomers as FISH probes from databases of **non-overlapping** complementary oligonucleotides. Every database is expected to be a folder with one txt file per chromosome, containing the starting location of each oligo. The length of the oligos is encoded in the folder name.
-
-The `fprode_dbextract` command can be used to convert a `sqlite3` database into single-chromosome txt files in the aforementioned format. `fprode_dbquery` allows instead to extract probes from a database based on a number of parameters that can be easily tweaked by the user. For simplicity, a web-interface is available with `fprode_serve`. More details in the [usage page](https://ggirelli.github.io/iFISH-probe-design/usage).
-
-While the current implementation does not allow for overlapping oligonucleotides in the database, we are planning to take that into account.
-
-## Useful links
+## Content
 
 * [Installation](https://ggirelli.github.io/iFISH-probe-design/install)
 * [Introduction](https://ggirelli.github.io/iFISH-probe-design/intro)
