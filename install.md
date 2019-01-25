@@ -4,6 +4,8 @@ title: "iFISH Probe Design Installation"
 
 # Installation
 
+We recommend using `pip3` to install `ifpd`. We also envision to pack it as a `conda` package in the future (*not available yet*).
+
 ## Using `pip3`
 
 If you have Python3 and `pip3` installed on your computer, you can simply run `sudo -H pip3 install ifpd` on a terminal. That's it! As easy as it gets.
