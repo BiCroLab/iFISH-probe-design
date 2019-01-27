@@ -1,5 +1,5 @@
 ---
-title: Introduction to `ifpd`
+title: Introduction to ifpd
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

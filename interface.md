@@ -1,5 +1,5 @@
 ---
-title: `ifpd` web interface
+title: ifpd web interface
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

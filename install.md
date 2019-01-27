@@ -1,4 +1,6 @@
-# Install `ifpd`
+---
+title: Install ifpd
+---
 
 We recommend using `pip3` to install `ifpd`. We also envision to pack it as a `conda` package in the future (*not available yet*).
 
