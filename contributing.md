@@ -1,6 +1,4 @@
----
-title: "Contributing Guidelines"
----
+# Contributing Guidelines
 
 ## Introduction
 
