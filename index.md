@@ -8,6 +8,8 @@ title: Home
 
 ## Content
 
+<style>ul > ul { margin-bottom: 0;  }</style>
+
 * [Introduction](/introduction)
     - [Database](/database)
     - [Algorithms](/algorithms)
