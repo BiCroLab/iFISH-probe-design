@@ -1,5 +1,4 @@
 ---
-layout: default
 title: iFISH probe design
 version: site.version
 ---
