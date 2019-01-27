@@ -1,6 +1,5 @@
 title:               ifpd
-tagline:             'iFISH probe design'
-description:         'Documentation to the `ifpd` package.'
+description:         'iFISH probe design'
 
 author:
   name:              Gabriele Girelli
