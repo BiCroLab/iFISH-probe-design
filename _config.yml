@@ -1,7 +1,7 @@
 # Setup
 title:               ifpd
-tagline:             'DIY iFISH probe design'
-description:         'Documentation to the ifpd package.'
+tagline:             'iFISH probe design'
+description:         'Documentation to the `ifpd` package.'
 baseurl:             'https://ggirelli.github.io/iFISH-probe-design'
 paginate:            5
 
