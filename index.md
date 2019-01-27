@@ -7,3 +7,7 @@ title: iFISH probe design
 It also includes a web interface, which simplifies the procedure by removing any requirement for programming skills.
 
 The tools allow to select sets of oligomers as iFISH probes, starting from databases of oligonucleotides complementary to specific genomic loci.
+
+### Reference
+
+Our iFISH paper is currently under revision.
