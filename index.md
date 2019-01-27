@@ -8,7 +8,7 @@ title: Home
 
 ## Content
 
-<style>ul > ul { margin-bottom: 0;  }</style>
+<style>li>ul, li>ol {margin-bottom: 0;}</style>
 
 * [Introduction]({{site.baseurl}}/introduction)
     - [Database]({{site.baseurl}}/database)
