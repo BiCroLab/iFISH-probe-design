@@ -10,13 +10,13 @@ title: Home
 
 <style>ul > ul { margin-bottom: 0;  }</style>
 
-* [Introduction](/introduction)
-    - [Database](/database)
-    - [Algorithms](/algorithms)
-* [Install](/install)
-* [Usage](/usage)
-    - [Scripts](/scripts)
-    - [Interface](/interface)
-* [Contributing](/contributing)
-* [Code of Conduct](/code_of_conduct)
+* [Introduction]({{site.baseurl}}/introduction)
+    - [Database]({{site.baseurl}}/database)
+    - [Algorithms]({{site.baseurl}}/algorithms)
+* [Install]({{site.baseurl}}/install)
+* [Usage]({{site.baseurl}}/usage)
+    - [Scripts]({{site.baseurl}}/scripts)
+    - [Interface]({{site.baseurl}}/interface)
+* [Contributing]({{site.baseurl}}/contributing)
+* [Code of Conduct]({{site.baseurl}}/code_of_conduct)
 
