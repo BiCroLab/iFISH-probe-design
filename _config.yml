@@ -1,16 +1,11 @@
-# Setup
 title:               ifpd
 tagline:             'iFISH probe design'
-description:         'Documentation to the `ifpd` package.'
-baseurl:             'https://ggirelli.github.io/iFISH-probe-design'
-paginate:            5
+description:         'Documentation to the `ifpd` package.']
 
-# About/contact
 author:
   name:              Gabriele Girelli
   url:               https://ggirelli.info
   email:             gabriele.girelli@scilifelab.se
 
-# Custom vars
 version:             2.0.0.post1
 google_analytics: "UA-99031010-5"
