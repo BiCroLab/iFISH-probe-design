@@ -15,13 +15,14 @@
   <body>
     <div class="wrapper">
       <header>
-        <a href="{{ site.baseurl }}"><h1>{{ site.title }}</h1></a>
+        <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
         <p>{{ site.description }}</p>
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub</a><small>{{ site.github.owner_name }}/{{ site.github.repository_name }} ({{ site.version }})</small></p>
+        <p class="view">
+          <a href="{{ site.github.repository_url }}">View the Project on GitHub</a><br>
+          <small>{{ site.github.owner_name }}/{{ site.github.repository_name }} ({{ site.version }})</small></p>
         <ul>
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
           <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.clone_url }}">Fork On <strong>GitHub</strong></a></li>
         </ul>
       </header>
       <section>
