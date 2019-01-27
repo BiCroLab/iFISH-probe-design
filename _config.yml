@@ -9,3 +9,4 @@ author:
 
 version:             2.0.0.post1
 google_analytics: "UA-99031010-5"
+theme: jekyll-theme-minimal
