@@ -15,3 +15,4 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 * [Scripts]({{ site.baseurl }}/scripts)
 * [Interface]({{ site.baseurl }}/interface)
+* [Examples]({{ site.baseurl }}/examples)
