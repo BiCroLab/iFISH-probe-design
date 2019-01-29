@@ -1,5 +1,5 @@
 ---
-title: ifpd algorithms
+title: Algorithms
 ---
 
 First, explanation of `query_probe` algorithm, then of `query_set`.
