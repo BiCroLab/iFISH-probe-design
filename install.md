@@ -2,7 +2,7 @@
 title: Install ifpd
 ---
 
-We recommend using `pip3` to install `ifpd`. We also envision to pack it as a `conda` package in the future (*not available yet*).
+ifpd is fully implemented in Python3, and is distributed through the PyPI network: the Python Package Manager developed and maintained by the Python community, for the Python community. As such, we recommend using `pip3` (PyPI package installer) to install `ifpd`. We also envision to pack it as a `conda` package in the future (*not available yet*).
 
 ## Using `pip3`
 
