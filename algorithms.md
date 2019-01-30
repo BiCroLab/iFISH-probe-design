@@ -10,9 +10,9 @@ Both algorithms are based on the calculation of either single or spotting probe-
 
 ### Features
 
-* `size`
-* `centrality`
-* `spread`
+* `size`: defined as the distance between the genomic coordinates of the first base covered by the first oligo, and the last base covered by the last oligo.
+* `centrality`: ratio between the distance between the gROI midpoint and the probe midpoint, and the gROI's half-size. It spans from 0, when the probe midpoint sits on the gROI's border, to 1, when the probe midpoint coincides to the gROI's midpoint.
+* `homogeneity` of inter-oligo distance: defined as the reciprocal of the inter-oligo distance standard deviation. The distance between two consecutive oligos is defined as the difference in genomic coordinates of the last base covered by the first oligo, and the first base covered by the second oligo.
 
 ### Algorithm
 
@@ -27,7 +27,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ### Features
 
-* `homogeneity` of probe spread and size.
+* `homogeneity` of inter-probe distance and probe size: defined as the average between the reciprocal of the standard deviation of inter-probe distance and probe size, respectively. The distance between two consecutive probes is the difference in genomic coordinates between the last base covered by the last oligo in the first probe, and the first base covered by the first oligo in the second probe.
 
 ### Algorithm
 
