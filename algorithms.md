@@ -2,7 +2,9 @@
 title: Algorithms
 ---
 
-WHe included two algorithms in ifpd: one to design a single probe in a genomic region of interest (gROI), and the other to design a number of homogeneously spread probes in a gROI (i.e, to design a spotting probe). These algorithms are built upon the calculation of either single or spotting probe-related features. We will go more into the details of both festures and algorithms in the following sections.
+We included two algorithms in `ifpd`: the first to design a single probe in a genomic region of interest (gROI), and the second to design a number of homogeneously spread probes in a gROI (i.e, to design a *spotting* probe).
+
+Both algorithms are based on the calculation of either single or spotting probe-related features. We will go more into the details of both features and algorithms in the following sections.
 
 ##  Single probe design
 
