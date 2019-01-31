@@ -20,11 +20,11 @@ This script checks a database for proper formatting and compatibility with the `
 
 ## `ifpd_query_probe`
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, maiores eos fuga tenetur error. Delectus architecto veniam animi, magnam, dolorem sapiente quis repudiandae autem velit, earum suscipit. Fugiat incidunt, fuga.
+This script queries a database to design a single iFISH probe, using the algorithm explained in [the corresponding page]({{ site.baseurl }}/algorithms#single-probe-design).
 
 ## `ifpd_query_set`
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum facilis debitis voluptatibus consequuntur expedita, ipsa, quis quibusdam! Soluta quidem rem vel, tenetur dolorum nisi odio, quos numquam, est harum unde.
+This script queries a database to design a spotting iFISH probe, using the algorithm explained in [the corresponding page]({{ site.baseurl }}/algorithms#spotting-probe-design).
 
 ## `ifpd_serve`
 
