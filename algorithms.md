@@ -16,12 +16,27 @@ Both algorithms are based on the calculation of either single or spotting probe-
 
 ### Algorithm
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The single probe design algorithms requires the following inputs:
+
+* The genomic region of interest, *e.g.*, `chr1:1000000-1001000`.
+* The number of oligos for the probe (*N<sub>O</sub>*).
+* The priority order for the aforementioned features. Default is: (1) `size`, (2) `homogeneity`, and (3) `centrality`.
+* A range (fraction, *F*) for the filter step, which is 0.1 by default.
+
+The algorithm performs the following steps:
+
+1. Retrieve all oligonucleotides in the region of interest.
+2. Identify all sets of *N<sub>O</sub>* consecutive oligonucleotides from the retrieved ones.
+3. Calculate the three features for each oligonucleotide set.
+4. Discard all sets that have a priority 1 feature (`size` by default) outside a range around the *best value*. This step behaves differently depending on the feature, using the following ranges:
+    * `size`: `min(size)±F*min(size)`
+    * `homogeneity`: `max(homogeneity)±F*max(homogeneity)`
+    * `centrality`: `max(centrality)±F*max(centrality)`
+5. The remaining sets are sorted based on the priority 2 feature (`homogeneity` by default), from the *best* to the *worst* value. This step behaves differently depending on the feature, sorting as follows:
+    * `size`: from `min(size)` to `max(size)`
+    * `homogeneity`: from `max(homogeneity)` to `min(homogeneity)`
+    * `centrality`: from `max(centrality)` to `min(centrality)`
+6. The first set in the sorted list is considered the *optimal* probe, and is returned as output.
 
 ##  Spotting probe design
 
@@ -31,9 +46,14 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ### Algorithm
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The spotting probe design algorithms requires the following inputs:
+
+* The genomic region of interest, *e.g.*, `chr1:1000000-1001000`.
+* The number of probes to be designed (*N<sub>P</sub>*)
+* The number of oligos for a probe (*N<sub>O</sub>*).
+* The priority order for the aforementioned features. Default is: (1) `size`, (2) `homogeneity`, and (3) `centrality`.
+* A range (fraction, *F*) for the filter step, which is 0.1 by default.
+
+The algorithm works as following:
+
+1. ...
