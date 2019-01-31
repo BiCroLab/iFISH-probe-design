@@ -71,6 +71,68 @@ In the **What** card, the *Max output probes* field is replaced by the two field
 
 ## Query page
 
+![query-head]({{ site.baseurl }}/images/query-head.png)
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+![query-head-running]({{ site.baseurl }}/images/query-head-running.png)
+![query-head-success]({{ site.baseurl }}/images/query-head-success.png)
+![query-head-timeout]({{ site.baseurl }}/images/query-head-timeout.png)
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+![query-head-info]({{ site.baseurl }}/images/query-head-info.png)
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa unde laudantium eius inventore dignissimos cupiditate aperiam, a molestiae sint consequatur vitae officia veritatis optio voluptates reiciendis molestias laborum impedit. Quia!
+
+![query-settings]({{ site.baseurl }}/images/query-settings.png)
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+![query-log]({{ site.baseurl }}/images/query-log.png)
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+![query-table]({{ site.baseurl }}/images/query-table.png)
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+![query-table-figures]({{ site.baseurl }}/images/query-table-figures.png)
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+![query-download]({{ site.baseurl }}/images/query-download.png)
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima laudantium voluptates et saepe odio earum expedita non consectetur aliquid, molestias. Eaque explicabo assumenda quaerat fugiat magni earum delectus excepturi molestiae!
 
 ## Probe candidate page
