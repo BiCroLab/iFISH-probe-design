@@ -2,14 +2,11 @@
 title: ifpd usage
 ---
 
-Usage can be for back-end users with medium informatic skills (scripts) or for users with no informatic skills or that prefer a graphic interface (interface).
+`ifpd` functionalities can be accessed in two different ways: through an in-built web [interface]({{ site.baseurl }}/interface) that is run with [`ifpd_serve`]({{ site.baseurl }}/scripts#ifpd_serve), or through an ensemble of back-end [scripts]({{ site.baseurl }}/scripts).
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The interface has the advantage of removing any requirement for computational skills. Instead, to properly run the script and set up the whole environment, a user would need to have basic BASH skills.
+
+We also provide a number of examples, related to both interface and scripts, in the corresponding [examples page]({{ site.baseurl }}/examples).
 
 ### Related topics
 
