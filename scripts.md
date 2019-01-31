@@ -30,7 +30,25 @@ This script queries a database to design a spotting iFISH probe, using the algor
 
 This script can be used to run the `ifpd` [web interface]({{ site.baseurl }}/interface) on your own computer. If run without any parameters, it serves the interface at the `0.0.0.0:8080` address. URL and port can be customized using the `-u` and `-p` options, respectively.
 
-The interface requires also a `static` folder (by default created in the package installation path), where databases and queries are stored. It is highly advised to specify a custom static folder path using the `-s` option.
+The interface requires also a `static` folder (by default created in the package installation path), where databases and queries are stored. It is highly advised to specify a custom static folder path using the `-s` option. The static folder has the following structure (created when running `ifpd_serve` the first time):
+
+```
+static_folder
+    ┣ db
+    ┃  ┣ folder_db1
+    ┃  ┣ folder_db2
+    ┃  ┣ ...
+    ┃  ┗ folder_dbN
+    ┗ query
+       ┣ folder_query1
+       ┣ folder_query1
+       ┣ ...
+       ┣ folder_queryN
+       ┣ query1.config
+       ┣ query2.config
+       ┣ ...
+       ┗ queryN.config
+```
 
 Finally, with the `-m` option one can specify an email address to contact in case a query crashes or times out.
 
