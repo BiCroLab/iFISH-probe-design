@@ -23,15 +23,19 @@ The interface is fully responsive, and can be visualized with a display of any s
 
 The homepage starts with a big header banner with the text **iFISH probe designer**, immediately followed by a small disclaimer text and then by the main interface body.
 
-The main interface body is divided in 5 main tabs, plus two additional buttons:
+<p class="mb-1">The main interface body is divided in 5 main tabs, plus two additional buttons:</p>
 
-* **Single probe**
-* **Spotting probe**
-* **Databases**
-* **Queue**
-* **Search (<span class="fas fa-search"></span>)**
-* **Help (<span class="fas fa-info-circle"></span>)**
-* **Genome Browser (<span class="fas fa-dna"></span>)**
+* **Single probe** contains the form to design a single probe.
+* **Spotting probe** contains the form to design a spotting probe.
+* **Databases** shows details regarding the currently available databases.
+* **Queue** shows the queue status and whether there are queries waiting to be executed.
+* **Search (<span class="fas fa-search"></span>)** allows to input a query ID to return to the corresponding query page. An "Error 500" message is shown if the specified query ID does not exist.
+* **Help (<span class="fas fa-info-circle"></span>)** redirects to this page.
+* **Genome Browser (<span class="fas fa-dna"></span>)** redirects to the [UCSC genome browser](http://genome.ucsc.edu/cgi-bin/hgTracks). This can be useful to obtain the coordinates of genes or other genomic regions of interest.
+
+More details on each tab in the corresponding sub-sections below.
+
+The footer of the page reports the version tag and copyright details. When visiting this documentation, always check that the version tags match!
 
 ### Single probe
 
