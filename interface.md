@@ -6,6 +6,17 @@ A brief description on how to run the interface with `ifpd_serve` is available i
 
 The interface is fully responsive, and can be visualized with a display of any size or aspect ratio. Still, we suggest using a large enough display to properly visualize details in some plots without having to download them or zomm in.
 
+#### Content
+
+* [Homepage](#homepage)
+    - [Single probe](#single-probe)
+    - [Spotting probe](#spotting-probe)
+    - [Queue](#queue)
+    - [Search](#search)
+* [Query page](#query-page)
+* [Probe candidate page](#probe-candidate-page)
+* [Probe set candidate page](#probe-set-candidate-page)
+
 ## Homepage
 
 ![homepage]({{ site.baseurl }}/images/homepage.png)
@@ -22,11 +33,11 @@ The main interface body is divided in 5 main tabs, plus two additional buttons:
 * **Help (<span class="fas fa-info-circle"></span>)**
 * **Genome Browser (<span class="fas fa-dna"></span>)**
 
-### Single probe query
+### Single probe
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolore earum facere, ipsam sint obcaecati minus autem deleniti, voluptatem mollitia eveniet nihil beatae, quasi quo aliquid amet dolor quas tempore.
 
-### Spotting probe query
+### Spotting probe
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptas nulla dolor quia omnis minima adipisci! Doloribus, ipsum, voluptatem assumenda quis quibusdam reiciendis, possimus, quia autem non debitis deleniti quisquam.
 
