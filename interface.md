@@ -110,7 +110,16 @@ Finally, a big <span class="text-success">green</span> "Download" button allows 
 
 ## Probe candidate page
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore sed, culpa adipisci corporis saepe corrupti a quis doloremque ratione commodi velit veritatis dolores, minus blanditiis quasi veniam. Odit totam, est.
+![candidate-page]({{ site.baseurl }}/images/candidate-page.png)
+
+The **Probe candidate page** is relatively simple: navigation bar at the top, graphical reports on the candidate in the first card, followed by a **Details** card a three buttons to download the candidate in a variety of formats.
+
+The plots in the first card show the following:
+
+* **Top**: the genomic region spanned by the probe in black, and the location of each oligonucleotide in cyan. Vertical dotted lines indicate the midpoint of each oligonucleotide.
+* **Bottom-left**: the genomic region of interest in black and the region spanned by the probe in cyan. The vertical dashed red line indicates the region midpoint, while the vertical cyan dashed line indicates the probe midpoint.
+* **Bottom-center**: the ID of each oligo on the x-axis, and its midpoint genomic coordinate on the y-axis. Each oligo is represented by a red dot. First and last oligos are connected by a black line. If all consecutive oligonucleotides were equally spaced, all red dots would fall on the black line.
+* **Bottom-right**: density histogram of distance between consecutive oligonucleotides (as defined in the [algorithm]({{ site.baseurl }}/algorithms) page).
 
 ## Probe set candidate page
 
