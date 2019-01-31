@@ -41,7 +41,7 @@ static_folder
     ┃  ┗ folder_dbN
     ┗ query
        ┣ folder_query1
-       ┣ folder_query1
+       ┣ folder_query2
        ┣ ...
        ┣ folder_queryN
        ┣ query1.config
