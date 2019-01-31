@@ -28,9 +28,4 @@ This script queries a database to design a spotting iFISH probe, using the algor
 
 ## `ifpd_serve`
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This script can be used to run the `ifpd` [web interface]({{ site.baseurl }}/interface) on your own computer. If run without any parameters, it serves the interface at the `0.0.0.0:8080` address. URL and port can be customized using the `-u` and `-p` options, respectively.
