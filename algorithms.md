@@ -70,5 +70,5 @@ The algorithm works as following:
 5. For each of the first *N<sub>P</sub>* windows, run the <u>single</u> probe design algorithm and identify the *optimal* probe.
 6. Define the set of *N<sub>P</sub>* *optimal* probes as a *spotting* probe.
 7. Shift the windows of *W* and repeat steps 4-6 until the whole region has been covered. (*e.g.*, if *W* is 0.1, after 11 iterations).
-8. For each *spotting* probe, calculate the `homogeneity` of inter-probe distance and probe size, and use it to sort in decreasing order.
+8. For each *spotting* probe, calculate the `homogeneity` of inter-probe distance and probe size, and use it to sort in decreasing order alongside the number of probes (some sets might have less probes due to lack of oligonucleotides in a window).
 9. Provide as output the first *spotting* probe in the sorted list, which is considered to be the *optimal spotting* probe.
