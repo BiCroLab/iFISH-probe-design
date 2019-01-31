@@ -2,9 +2,11 @@
 title: ifpd web interface
 ---
 
-Description on how to run the interface in the [Scripts]({{ site.baseurl }}/scripts) page.  Here, description with screenshots on how to use the interface.
+A brief description on how to run the interface with `ifpd_serve` is available in [the corresponding page]({{ site.baseurl }}/scripts#ifpd_serve) page. Alternatively, some [examples]({{ site.baseurl }}/examples) are also available.
 
 ## Homepage
+
+![{{ site.baseurl }}/images/homepage.png]
 
 ### Single probe query
 
