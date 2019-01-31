@@ -49,29 +49,30 @@ The **General** card (light-blue background) asks for a *name* and a *descriptio
 
 ![form-where-card]({{ site.baseurl }}/images/form-where-card.png)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+In the **Where** card, you can select the database from which to retrieve the oligos and your genomic region of interest.
 
 ![form-single-what-card]({{ site.baseurl }}/images/form-single-what-card.png)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+In the **What** card you provide the number of oligonucleotides you want to have in your probe, the fraction (*F*) that the [algorithm]({{ site.baseurl }}/algorithms) should use for the filter step, and how many probes you want in output (set to `-1` to obtain all possible candidates).
 
 ![form-advanced-card]({{ site.baseurl }}/images/form-advanced-card.png)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolore earum facere, ipsam sint obcaecati minus autem deleniti, voluptatem mollitia eveniet nihil beatae, quasi quo aliquid amet dolor quas tempore.
+In the **Advanced settings** card you can specify the priority of the three single probe features. For more details on how this is used, check the [algorithm]({{ site.baseurl }}/algorithms) or the [example]({{ site.baseurl }}/examples) pages.
+
+Finally, the big <span class="text-success">green</span> "submit" button sends the form information to the server, that places the query in the queue and redirects you to your query page.
 
 ### Spotting probe
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptas nulla dolor quia omnis minima adipisci! Doloribus, ipsum, voluptatem assumenda quis quibusdam reiciendis, possimus, quia autem non debitis deleniti quisquam.
+
+![form-spotting-what-card]({{ site.baseurl }}/images/form-spotting-what-card.png)
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ### Queue
 
