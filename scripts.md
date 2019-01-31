@@ -22,6 +22,21 @@ This script checks a database for proper formatting and compatibility with the `
 
 This script queries a database to design a single iFISH probe, using the algorithm explained in [the corresponding page]({{ site.baseurl }}/algorithms#single-probe-design).
 
+The minimum input comprises (in order):
+
+1. `region`: the genomic region of interest, in the following format: `chrN:XXX,YYY`.
+2. `database`: the path to the database folder.
+3. `outputDirectory`: the path to the query output folder.
+
+Some optional parameters, used as detailed in the algorithms page, are also available.
+
+* The `--order` option allows to provide the features priority order, by providing a space-separated list of features (at least 2). For example: `--order homogeneity size centrality`.
+* The `--filter-thr` option specifies the fraction used to define the range in the filtering step (*F*). This should be a fraction (from 0 to 1), and defaults to 0.1.
+* The `--n-oligo` to specify the number of oligos desired in a probe. The default is 48.
+* `--max-probes` to specify the maximum number of probe candidates you want as output. The default (`-1`) outputs all candidates.
+
+For security reasons, if the specified `outputDirectory ` already exists, the script triggers an `AssertError`. To force this through, use the `-f` option. But keep in mind that this will overwrite the specified `outputDirectory`, deleting its whole content.
+
 ## `ifpd_query_set`
 
 This script queries a database to design a spotting iFISH probe, using the algorithm explained in [the corresponding page]({{ site.baseurl }}/algorithms#spotting-probe-design).
@@ -30,7 +45,7 @@ This script queries a database to design a spotting iFISH probe, using the algor
 
 This script can be used to run the `ifpd` [web interface]({{ site.baseurl }}/interface) on your own computer. If run without any parameters, it serves the interface at the `0.0.0.0:8080` address. URL and port can be customized using the `-u` and `-p` options, respectively.
 
-The interface requires also a `static` folder (by default created in the package installation path), where databases and queries are stored. It is highly advised to specify a custom static folder path using the `-s` option. The static folder has the following structure (created when running `ifpd_serve` the first time):
+The interface requires also a `static` folder (by default created in the package installation path), where databases and queries are stored. It is highly advised to specify a custom static folder path using the `-s` option. The structure of the static folder, created when running `ifpd_serve` the first time, is the following:
 
 ```
 static_folder
