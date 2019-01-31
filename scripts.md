@@ -2,9 +2,11 @@
 title: ifpd scripts
 ---
 
+You can access the help page of each script by using the `-h` option.
+
 ## `ifpd_mkdb`
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea reprehenderit, cupiditate ullam. Magni eaque delectus molestias fugiat recusandae laborum ducimus odio porro saepe consequatur suscipit, deserunt veniam provident perferendis maiores.
+This script takes a BED-like file of at least three columns (`chromosome`, `start` position, and `end` position), and generates a database folder in a format compatible with the rest of `ifpd`'s scripts.
 
 ## `ifpd_dbchk`
 
