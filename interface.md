@@ -13,8 +13,6 @@ The interface is fully responsive, and can be visualized with a display of any s
 * [Homepage](#homepage)
     - [Single probe](#single-probe)
     - [Spotting probe](#spotting-probe)
-    - [Queue](#queue)
-    - [Search](#search)
 * [Query page](#query-page)
 * [Probe candidate page](#probe-candidate-page)
 * [Probe set candidate page](#probe-set-candidate-page)
@@ -104,7 +102,7 @@ The **Log** card shows the query processing log. This area is updated automatica
 ![query-table]({{ site.baseurl }}/images/query-table.png)
 ![query-table-figures]({{ site.baseurl }}/images/query-table-figures.png)
 
-When the query has been fully processed, a new card with **Table** and **Figures** tabs appears. These report the query results, respectively in tabular and graphical format. For each candidate reported, a link is available to the probe candidate page, or to download the candidate as a zip folder.
+When the query has been fully processed, a new card with **Table** and **Figures** tabs appears. These report the query results, respectively in tabular and graphical format. For each candidate reported, a link is available to the candidate page, or to download it as a zip folder.
 
 ![query-download]({{ site.baseurl }}/images/query-download.png)
 
