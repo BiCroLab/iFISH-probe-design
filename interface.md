@@ -71,69 +71,44 @@ In the **What** card, the *Max output probes* field is replaced by the two field
 
 ## Query page
 
+The query starts with a big header banner with the text **Query**, immediately followed by a breadcrumb navigation bar, with a dropdown menu on the left and the parents pages.
+
 ![query-head]({{ site.baseurl }}/images/query-head.png)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Right after the navigation bar, a gray alert is shown, recommending to either save the link to this page, bookmark it, or note down your query ID. You can use the link to the query page to get back to it, or use the query ID to get back there using the **search** tab in the homepage. You can copy the query ID either by selecting it from the navigation bar (it's that list of characters after "Query: ") or simply by clicking on the "copy your query id" link. To hide this message click on the black cross (<span class="fas fa-times"></span>) on the left.
+
+Then, if the query is not processed immediately but queued instead, a <span class="text-warning">yellow</span> alert reports the queuing time. The page keeps refreshing automatically every 10 seconds while the query is in the queue. If this does not happen, you can do it by clicking on the refresh (<span class="fas fa-redo"></span>) icon on the left.
 
 ![query-head-running]({{ site.baseurl }}/images/query-head-running.png)
+
+When the query leaves the queue, the <span class="text-warning">yellow</span> alert changes to report the processing time. At this stage, the page keeps refreshing automatically every 5 seconds. If this does not happen, you can do it by clicking on the refresh (<span class="fas fa-redo"></span>) icon on the left.
+
 ![query-head-success]({{ site.baseurl }}/images/query-head-success.png)
 ![query-head-timeout]({{ site.baseurl }}/images/query-head-timeout.png)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Once the query is processed, the alert turns <span class="text-success">green</span> and reports the time at which the query was completed, alongside the running time. If something wrong happend during the processing, or if the query took too long, the alert turns <span class="text-dange">red</span> and invites the user to try again or contact the server admin.
 
 ![query-head-info]({{ site.baseurl }}/images/query-head-info.png)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa unde laudantium eius inventore dignissimos cupiditate aperiam, a molestiae sint consequatur vitae officia veritatis optio voluptates reiciendis molestias laborum impedit. Quia!
+Right after the query status alert, some info are reported: query name, time of submission, and description. Given that query name and description are optional, sometimes only some of these information are reported.
 
 ![query-settings]({{ site.baseurl }}/images/query-settings.png)
+![query-cmd]({{ site.baseurl }}/images/query-head-info.png)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+In the **Query settings** card, the query parameters are reported. This is similar to the **Cmd** card, where the command line used to run the query is shown.
 
 ![query-log]({{ site.baseurl }}/images/query-log.png)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The **Log** card shows the query processing log. This area is updated automatically at each page refresh, and is automatically scrolled to the bottom (most recent update) while the query is being processed.
 
 ![query-table]({{ site.baseurl }}/images/query-table.png)
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 ![query-table-figures]({{ site.baseurl }}/images/query-table-figures.png)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+When the query has been fully processed, a new card with **Table** and **Figures** tabs appears. These report the query results, respectively in tabular and graphical format. For each candidate reported, a link is available to the probe candidate page, or to download the candidate as a zip folder.
 
 ![query-download]({{ site.baseurl }}/images/query-download.png)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima laudantium voluptates et saepe odio earum expedita non consectetur aliquid, molestias. Eaque explicabo assumenda quaerat fugiat magni earum delectus excepturi molestiae!
+Finally, a big <span class="text-success">green</span> "Download" button allows to download the entirety of the query results in zip format. As per disclaimer, this might take a few moments (up to a few minutes depending on the query size) to generate the zip folder.
 
 ## Probe candidate page
 
