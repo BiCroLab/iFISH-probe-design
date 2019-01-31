@@ -8,6 +8,8 @@ Both algorithms are based on the calculation of either single or spotting probe-
 
 ##  Single probe design
 
+This algorithm is implemented in the [`ifpd_query_probe` script]({{ site.baseurl}}/scripts#ifpd_query_probe).
+
 ### Features
 
 * `size`: defined as the distance between the genomic coordinates of the first base covered by the first oligo, and the last base covered by the last oligo.
@@ -41,6 +43,8 @@ The algorithm performs the following steps:
 
 ##  Spotting probe design
 
+This algorithm is implemented in the [`ifpd_query_set` script]({{ site.baseurl}}/scripts#ifpd_query_set).
+
 ### Features
 
 * `homogeneity` of inter-probe distance and probe size: defined as the average between the reciprocal of the standard deviation of inter-probe distance and probe size, respectively. The distance between two consecutive probes is the difference in genomic coordinates between the last base covered by the last oligo in the first probe, and the first base covered by the first oligo in the second probe.
@@ -55,10 +59,16 @@ The spotting probe design algorithms requires the following inputs:
 * The number of oligos for a probe (*N<sub>O</sub>*).
 * The priority order for the aforementioned features. Default is: (1) `size`, (2) `homogeneity`, and (3) `centrality`.
 * A range (fraction, *F*) for the filter step, which is 0.1 by default.
+* A fraction (*W*) for the window shift.
 
 The algorithm works as following:
 
 1. Retrieve all oligonucleotides in the region of interest, from the database.
 2. Identify all sets of *N<sub>O</sub>* consecutive oligonucleotides from the retrieved ones.
 3. Calculate the three features for each oligonucleotide set.
-4. ...
+4. Divide the region into *N<sub>P</sub>*+1 windows.
+5. For each of the first *N<sub>P</sub>* windows, run the <u>single</u> probe design algorithm and identify the *optimal* probe.
+6. Define the set of *N<sub>P</sub>* *optimal* probes as a *spotting* probe.
+7. Shift the windows of *W* and repeat steps 4-6 until the whole region has been covered. (*e.g.*, if *W* is 0.1, after 11 iterations).
+8. For each *spotting* probe, calculate the `homogeneity` of inter-probe distance and probe size, and use it to sort in decreasing order.
+9. Provide as output the first *spotting* probe in the sorted list, which is considered to be the *optimal spotting* probe.
