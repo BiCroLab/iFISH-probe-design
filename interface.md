@@ -63,24 +63,11 @@ Finally, the big <span class="text-success">green</span> "submit" button sends t
 
 ### Spotting probe
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptas nulla dolor quia omnis minima adipisci! Doloribus, ipsum, voluptatem assumenda quis quibusdam reiciendis, possimus, quia autem non debitis deleniti quisquam.
+The spotting probe design form is identical to the [single probe](#single-probe), with only one difference.
 
 ![form-spotting-what-card]({{ site.baseurl }}/images/form-spotting-what-card.png)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### Queue
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, sapiente ipsum magni voluptates earum nesciunt officiis fuga autem aspernatur. Enim fugiat temporibus, ipsum impedit voluptatem doloribus odio. Corrupti, quasi, velit.
-
-### Search
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, ipsam. Nobis totam in ex rem tenetur officiis magni autem eligendi quia veniam numquam molestias, fugit praesentium voluptate vitae ea quaerat.
+In the **What** card, the *Max output probes* field is replaced by the two fields, where you can specify the number of iFISH probes you need for the spotting probe, and the window shift (*W*). For more details on how this is used, check the [algorithm]({{ site.baseurl }}/algorithms) or the [example]({{ site.baseurl }}/examples) pages.
 
 ## Query page
 
