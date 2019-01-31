@@ -2,7 +2,9 @@
 title: ifpd web interface
 ---
 
-A brief description on how to run the interface with `ifpd_serve` is available in [the corresponding page]({{ site.baseurl }}/scripts#ifpd_serve) page. Additionally, some examples are also available [here]({{ site.baseurl }}/examples).
+A brief description on how to run the interface with `ifpd_serve` is available in [the corresponding page]({{ site.baseurl }}/scripts#ifpd_serve) page. 
+
+Additionally, some examples are also available [here]({{ site.baseurl }}/examples).
 
 The interface is fully responsive, and can be visualized with a display of any size or aspect ratio. Still, we suggest using a large enough display to properly visualize details in some plots without having to download them or zomm in.
 
