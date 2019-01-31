@@ -6,7 +6,7 @@ A brief description on how to run the interface with `ifpd_serve` is available i
 
 ## Homepage
 
-![{{ site.baseurl }}/images/homepage.png]
+![homepage]({{ site.baseurl }}/images/homepage.png)
 
 ### Single probe query
 
