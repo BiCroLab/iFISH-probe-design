@@ -2,11 +2,25 @@
 title: ifpd web interface
 ---
 
-A brief description on how to run the interface with `ifpd_serve` is available in [the corresponding page]({{ site.baseurl }}/scripts#ifpd_serve) page. Alternatively, some [examples]({{ site.baseurl }}/examples) are also available.
+A brief description on how to run the interface with `ifpd_serve` is available in [the corresponding page]({{ site.baseurl }}/scripts#ifpd_serve) page. Additionally, some examples are also available [here]({{ site.baseurl }}/examples).
+
+The interface is fully responsive, and can be visualized with a display of any size or aspect ratio. Still, we suggest using a large enough display to properly visualize details in some plots without having to download them or zomm in.
 
 ## Homepage
 
 ![homepage]({{ site.baseurl }}/images/homepage.png)
+
+The homepage starts with a big header banner with the text **iFISH probe designer**, immediately followed by a small disclaimer text and then by the main interface body.
+
+The main interface body is divided in 5 main tabs, plus two additional buttons:
+
+* **Single probe**
+* **Spotting probe**
+* **Databases**
+* **Queue**
+* **Search (<span class="fas fa-search"></span>)**
+* **Help (<span class="fas fa-info-circle"></span>)**
+* **Genome Browser (<span class="fas fa-dna"></span>)**
 
 ### Single probe query
 
