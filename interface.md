@@ -21,7 +21,7 @@ The interface is fully responsive, and can be visualized with a display of any s
 
 ![homepage]({{ site.baseurl }}/images/homepage.png)
 
-The homepage starts with a big header banner with the text **iFISH probe designer**, immediately followed by a small disclaimer text and then by the main interface body.
+The homepage starts with a big header banner with the text **iFISH probe designer**, immediately followed by a small disclaimer text and then by the main interface body (<span style="color: red;">red</span> bounding box in the screenshot).
 
 <p class="mb-1">The main interface body is divided in 5 main tabs, plus two additional buttons:</p>
 
