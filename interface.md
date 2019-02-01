@@ -69,11 +69,11 @@ In the **What** card, the *Max output probes* field is replaced by the two field
 
 ## Query page
 
-The query starts with a big header banner with the text **Query**, immediately followed by a breadcrumb navigation bar, with a dropdown menu on the left and the parents pages.
+The query starts with a big header banner with the text **Query**.
 
 ![query-head]({{ site.baseurl }}/images/query-head.png)
 
-Right after the navigation bar, a gray alert is shown, recommending to either save the link to this page, bookmark it, or note down your query ID. You can use the link to the query page to get back to it, or use the query ID to get back there using the **search** tab in the homepage. You can copy the query ID either by selecting it from the navigation bar (it's that list of characters after "Query: ") or simply by clicking on the "copy your query id" link. To hide this message click on the black cross (<span class="fas fa-times"></span>) on the left.
+Then, a gray alert is shown, recommending to either save the link to this page, bookmark it, or note down your query ID. You can use the link to the query page to get back to it, or use the query ID to get back there using the **search** tab in the homepage. You can copy the query ID simply by clicking on the "copy your query id" link. To hide this message click on the black cross (<span class="fas fa-times"></span>) on the left.
 
 Then, if the query is not processed immediately but queued instead, a <span class="text-warning">yellow</span> alert reports the queuing time. The page keeps refreshing automatically every 10 seconds while the query is in the queue. If this does not happen, you can do it by clicking on the refresh (<span class="fas fa-redo"></span>) icon on the left.
 
@@ -112,7 +112,7 @@ Finally, a big <span class="text-success">green</span> "Download" button allows 
 
 ![candidate-page]({{ site.baseurl }}/images/candidate-page.png)
 
-The **Probe candidate page** is relatively simple: navigation bar at the top, graphical reports on the candidate in the first card, followed by a **Details** card a three buttons to download the candidate in a variety of formats.
+The **Probe candidate page** is relatively simple: graphical reports on the candidate in the first card, followed by a **Details** card a three buttons to download the candidate in a variety of formats.
 
 The plots in the first card show the following:
 
@@ -125,7 +125,7 @@ The plots in the first card show the following:
 
 ![candidate-set-page]({{ site.baseurl }}/images/candidate-set-page.png)
 
-The **Probe candidate page** is also relatively simple and follows a similar structure as the probe candidate one: navigation bar at the top, graphical reports on the candidate set in the first card, followed by a **Probe list** card with links to the single probe pages, and then three buttons to download the candidate set in a variety of formats.
+The **Probe candidate page** is also relatively simple and follows a similar structure as the probe candidate one: graphical reports on the candidate set in the first card, followed by a **Probe list** card with links to the single probe pages, and then three buttons to download the candidate set in a variety of formats.
 
 The plots in the first card show the following:
 
