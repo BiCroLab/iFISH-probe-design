@@ -10,7 +10,7 @@ This script takes a BED-like file of at least three columns (`chromosome`, `star
 
 The minimum input comprises the BED-like file path, the corresponding reference genome, and a name for the new database. Importantly, the specified reference genome must be in an NCBI-compatible format and available at UCSC. Use the `--list-refGenomes` to show the list of available genomes.
 
-If you want to use a genome available through a DAS server different from the UCSC one, you can specify the DAS server URL with the `--ucsc-das-uri`.
+If you want to use a genome available through a DAS server different from the UCSC one, you can specify the DAS server URL with the `--das-uri`. If you do not have internet connection, use the `--no-net` option.
 
 As explained in the [database]({{ site.baseurl }}/database) page, the input BED-like file is expected to respect the UCSC BED format pertaining the indexing of genomic coordinates. If your input file specifies regions with both `start` and `end` positions being inclusive, you can use the `--increment-chrom-end` option to convert it to the appropriate format.
 
