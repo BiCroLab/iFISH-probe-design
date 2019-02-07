@@ -2,7 +2,7 @@
 title: ifpd scripts
 ---
 
-You can access the help page of each script by using the `-h` option. Moreover, a selection of examples is available in [the corresponding page]({{ site.baseurl }}/example).
+You can access the help page of each script by using the `-h` option. Moreover, a selection of examples is available in [the corresponding page]({{ site.baseurl }}/examples).
 
 ## `ifpd_mkdb`
 
