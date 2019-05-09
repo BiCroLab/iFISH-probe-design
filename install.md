@@ -27,4 +27,4 @@ conda skeleton pypi ifpd
 conda build ifpd
 ```
 
-Please, note that `ifpd` is a Python3 package test on Python3.6. Thus, you will need to create an appropriate environment using `conda`.
+Please, note that `ifpd` is a Python3 package tested on Python3.6. Thus, you will need to create an appropriate environment using `conda`.
